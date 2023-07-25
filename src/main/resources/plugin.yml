@@ -1,0 +1,13 @@
+name: MineGPT
+version: 1.0.0
+main: io.papermc.minegpt.MineGPT
+description: A minecraft plugin embedded with OpenAI GPT-3 Turbo
+author: Kompsos
+website: https://github.com/VosmoslaGod
+api-version: '1.20'
+
+commands:
+  askGPT:
+    description: Ask GPT a question
+    usage: /askGPT <question>
+    permission: MineGPT.gpt.ask
